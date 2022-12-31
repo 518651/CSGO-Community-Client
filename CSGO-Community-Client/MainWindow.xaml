@@ -78,9 +78,8 @@
                     />
             </ui:NavigationCompact.Footer>
         </ui:NavigationCompact>
-
-        <DockPanel>
-            <ui:TitleBar
+        
+        <ui:TitleBar
             x:Name="RootTitleBar"
             Title="CSGO Community - XXX社区"
             ForceShutdown="False"
@@ -106,51 +105,33 @@
                     </StackPanel>
                 </ui:TitleBar.Header>
             </ui:TitleBar>
-            
+
         <Grid Grid.Column="1">
-                    <Border
-                        Margin="0,46,0,0"
-                        Background="#FF2D2D2D"
-                        CornerRadius="8,0,0,0">
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto" />
-                                <RowDefinition Height="*" />
-                            </Grid.RowDefinitions>
-                            <ui:Breadcrumb
-                            Grid.Row="0"
-                            Margin="38"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Top"
-                            FontSize="26"
-                            FontWeight="Bold"
+            <Border
+                Margin="0,46,0,0"
+                Background="#FF2D2D2D"
+                CornerRadius="8,0,0,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <ui:Breadcrumb
+                        Grid.Row="0"
+                        Margin="38"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        FontSize="26"
+                        FontWeight="Bold"
                         Navigation="{Binding ElementName=RootNavigation}" />
 
-                            <Frame
-                            x:Name="RootFrame"
-                            Grid.Row="1"
-                            Margin="38,0" />
-                        </Grid>
-                    </Border>
+                    <Frame
+                        x:Name="RootFrame"
+                        Grid.Row="1"
+                        Margin="38,0" />
                 </Grid>
-
-
-            </DockPanel>
-        </DockPanel>
-        
-
-        
-        
-     
-        
-        
-        
-        <Grid>
-           
+            </Border>
         </Grid>
-
-
-
-        
+                
     </Grid>
 </ui:UiWindow>
