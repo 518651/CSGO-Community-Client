@@ -16,7 +16,7 @@
                 </Grid.RowDefinitions>
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="3*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
                         <RowDefinition Height="*"></RowDefinition>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
@@ -24,7 +24,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top">
-                        <TextBlock Text="一个新社区正在为你开放.欢迎回来 THE ACE" FontFamily="HarmonyOS Sans Black" FontSize="48" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Width="395">
+                        <TextBlock Text="一个新社区正在为你开放 \ > 欢迎回来 THE ACE" FontFamily="HarmonyOS Sans Black" FontSize="48" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Width="395">
                             <TextBlock.Foreground>
                                 <LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
                                     <GradientStop Color="#43CBFF"/>
@@ -33,9 +33,40 @@
                             </TextBlock.Foreground>
                         </TextBlock>
                         <TextBlock Text="XXX 社区能给用户带来更强的反作弊、更好128tick服务器、以及势均力敌的对手.无门槛，人少，容易被当鱼苗，较好的反作弊+监管系统，优异反作弊" FontFamily="HarmonyOS Sans Black" Foreground="#FF7F898E" TextWrapping="Wrap"/>
-                        <ui:Button Content="快速启动" Icon="Open16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,35,0,0" FontFamily="Microsoft YaHei UI" FontWeight="Bold" FontSize="16" Background="#FFFDFDFD" Foreground="#FF060606" IconForeground="Black" Width="145" Height="45" />
+                        <StackPanel Orientation="Horizontal" Margin="25,0,0,0">
+                            <ui:Button Content="快速启动" Icon="Open16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,35,0,0" FontFamily="Cascadia Code" FontWeight="Bold" FontSize="16" Background="#FFFDFDFD" Foreground="#FF060606" IconForeground="Black" Width="145" Height="45" />
+                            <Button Width="145" Height="45"  Content="加入聊群" FontFamily="Cascadia Code" FontWeight="Bold" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="50,35,0,0"/>
+                        </StackPanel>
                     </StackPanel>
-                        
+                     
+                    <!--启动数据统计-->
+                    <StackPanel Orientation="Horizontal" Grid.Row="1">
+                        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Width="195">
+                            <TextBlock Text="3,149" FontFamily="Dubai Medium" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" TextAlignment="Center">
+                                <TextBlock.Foreground>
+                                    <LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
+                                        <GradientStop Color="#5EFCE8"/>
+                                        <GradientStop Color="#736EFE" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </TextBlock.Foreground>
+                            </TextBlock>
+                            <TextBlock Text="USERS" FontFamily="Cascadia Code" Foreground="DarkGray" TextAlignment="Center"/>
+                            
+                        </StackPanel>
+                        <Separator Height="39" HorizontalAlignment="Center" VerticalAlignment="Top" Background="DarkGray" Foreground="#FF481212" BorderBrush="#FF8A8A8A" Margin="0,7,0,0"/>
+
+                        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Width="195">
+                            <TextBlock Text="6,931" FontFamily="Dubai Medium" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Width="195" TextAlignment="Center">
+                                <TextBlock.Foreground>
+                                    <LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
+                                        <GradientStop Color="#5EFCE8"/>
+                                        <GradientStop Color="#736EFE" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </TextBlock.Foreground>
+                            </TextBlock>
+                            <TextBlock Text="TRANCTIONS" FontFamily="Cascadia Code" Foreground="DarkGray" TextAlignment="Center"/>
+                        </StackPanel>
+                    </StackPanel>
 
 
                 </Grid>
