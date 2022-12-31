@@ -17,7 +17,9 @@
 
   <ItemGroup>
     <None Remove="Resources\App\Icon\wpfui.png" />
+    <None Remove="Resources\App\Index\awper.png" />
     <None Remove="Resources\App\Index\bg.jpg" />
+    <None Remove="Resources\App\Index\kv_logo.png" />
     <None Remove="Resources\App\Option\MainMenu\microsoft-shell-accessibility.ico" />
     <None Remove="Resources\App\Option\MainMenu\microsoft-shell-colors.ico" />
     <None Remove="Resources\App\Option\MainMenu\microsoft-shell-desktop.ico" />
@@ -39,6 +41,7 @@
   <ItemGroup>
     <Resource Include="Resources\App\Icon\wpfui.png" />
     <Resource Include="Resources\App\Index\bg.jpg" />
+    <Resource Include="Resources\App\Index\kv_logo.png" />
     <Resource Include="Resources\App\Option\MainMenu\microsoft-shell-accessibility.ico" />
     <Resource Include="Resources\App\Option\MainMenu\microsoft-shell-colors.ico" />
     <Resource Include="Resources\App\Option\MainMenu\microsoft-shell-desktop.ico" />

@@ -5,14 +5,42 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:local="clr-namespace:CSGO_Community_Client"
       mc:Ignorable="d" 
-      d:DesignHeight="650" d:DesignWidth="800"
+      d:DesignHeight="850" d:DesignWidth="800"
       Title="Index" Background="#FF10123D" Scrollable="True">
-    <VirtualizingStackPanel>
+    <VirtualizingStackPanel IsVirtualizing="True" >
         <StackPanel>
-            <Grid Height="450">
-                <Image Source=""
+            <Grid Height="850">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="6*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="3*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <TextBlock Text="一个新社区正在为你开放.欢迎回来 THE ACE" FontFamily="HarmonyOS Sans Black" FontSize="48" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Width="395">
+                            <TextBlock.Foreground>
+                                <LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
+                                    <GradientStop Color="#43CBFF"/>
+                                    <GradientStop Color="#8C1BAB" Offset="1"/>
+                                </LinearGradientBrush>
+                            </TextBlock.Foreground>
+                        </TextBlock>
+                        <TextBlock Text="XXX 社区能给用户带来更强的反作弊、更好128tick服务器、以及势均力敌的对手.无门槛，人少，容易被当鱼苗，较好的反作弊+监管系统，优异反作弊" FontFamily="HarmonyOS Sans Black" Foreground="#FF7F898E" TextWrapping="Wrap"/>
+                        <ui:Button Content="快速启动" Icon="Open16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,35,0,0" FontFamily="Microsoft YaHei UI" FontWeight="Bold" FontSize="16" Background="#FFFDFDFD" Foreground="#FF060606" IconForeground="Black" Width="145" Height="45" />
+                    </StackPanel>
+                        
+
+
+                </Grid>
             </Grid>
         </StackPanel>
     </VirtualizingStackPanel>
-    
+
 </ui:UiPage>
