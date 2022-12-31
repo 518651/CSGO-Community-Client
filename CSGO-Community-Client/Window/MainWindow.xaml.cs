@@ -25,8 +25,7 @@ namespace CSGO_Community_Client
 
         public MainWindow()
         {
-            InitializeComponent();
-
+            InitializeComponent(); 
             Loaded += (sender, args) =>
             {
                 Wpf.Ui.Appearance.Watcher.Watch(
