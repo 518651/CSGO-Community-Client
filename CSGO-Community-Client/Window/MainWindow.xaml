@@ -113,23 +113,26 @@
                 Margin="0,46,0,0"
                 Background="#FF10123D"
                 CornerRadius="8,0,0,0">
-                <Grid>
+                <Grid HorizontalAlignment="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <ui:Breadcrumb
+                    <!--<ui:Breadcrumb
                         Grid.Row="0"
                         Margin="38"
                         HorizontalAlignment="Left"
                         VerticalAlignment="Top"
                         FontSize="26"
                         FontWeight="Bold"
-                        Navigation="{Binding ElementName=RootNavigation}" FontFamily="HarmonyOS Sans Medium" />
+                        Navigation="{Binding ElementName=RootNavigation}" FontFamily="HarmonyOS Sans Medium" />-->
 
+                    <!--<Frame
+                        x:Name="RootFrame"
+                        Grid.Row="1" Width="1060" HorizontalAlignment="Left" Height="550" Margin="40,0,40,0" VerticalAlignment="Top" />-->
                     <Frame
                         x:Name="RootFrame"
-                        Grid.Row="1" Width="1060" HorizontalAlignment="Left" Height="550" Margin="40,0,40,0" VerticalAlignment="Top" />
+                        Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="1152" Height="588" />
                 </Grid>
             </Border>
         </Grid>

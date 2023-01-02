@@ -19,7 +19,12 @@
     <None Remove="Resources\App\Icon\wpfui.png" />
     <None Remove="Resources\App\Index\awper.png" />
     <None Remove="Resources\App\Index\bg.jpg" />
+    <None Remove="Resources\App\Index\bg1.png" />
+    <None Remove="Resources\App\Index\ezgif.com-gif-maker.gif" />
+    <None Remove="Resources\App\Index\FhNp-fFXEAM9Aep.jfif" />
+    <None Remove="Resources\App\Index\FX3ORVDXgAAbnM4.jfif" />
     <None Remove="Resources\App\Index\kv_logo.png" />
+    <None Remove="Resources\App\Index\Person.png" />
     <None Remove="Resources\App\Option\MainMenu\microsoft-shell-accessibility.ico" />
     <None Remove="Resources\App\Option\MainMenu\microsoft-shell-colors.ico" />
     <None Remove="Resources\App\Option\MainMenu\microsoft-shell-desktop.ico" />
@@ -31,6 +36,7 @@
 
   <ItemGroup>
     <PackageReference Include="WPF-UI" Version="2.0.1" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -41,7 +47,12 @@
   <ItemGroup>
     <Resource Include="Resources\App\Icon\wpfui.png" />
     <Resource Include="Resources\App\Index\bg.jpg" />
+    <Resource Include="Resources\App\Index\bg1.png" />
+    <Resource Include="Resources\App\Index\ezgif.com-gif-maker.gif" />
+    <Resource Include="Resources\App\Index\FhNp-fFXEAM9Aep.jfif" />
+    <Resource Include="Resources\App\Index\FX3ORVDXgAAbnM4.jfif" />
     <Resource Include="Resources\App\Index\kv_logo.png" />
+    <Resource Include="Resources\App\Index\Person.png" />
     <Resource Include="Resources\App\Option\MainMenu\microsoft-shell-accessibility.ico" />
     <Resource Include="Resources\App\Option\MainMenu\microsoft-shell-colors.ico" />
     <Resource Include="Resources\App\Option\MainMenu\microsoft-shell-desktop.ico" />
