@@ -22,8 +22,12 @@
     <None Remove="Resources\App\Index\bg1.png" />
     <None Remove="Resources\App\Index\ezgif.com-gif-maker.gif" />
     <None Remove="Resources\App\Index\FhNp-fFXEAM9Aep.jfif" />
+    <None Remove="Resources\App\Index\FhT9r60aAAEG2Xy.jfif" />
+    <None Remove="Resources\App\Index\FkQ1pIXXEAIt_kp.jfif" />
     <None Remove="Resources\App\Index\FX3ORVDXgAAbnM4.jfif" />
     <None Remove="Resources\App\Index\kv_logo.png" />
+    <None Remove="Resources\App\Index\OtherJoin\mode1.jpg" />
+    <None Remove="Resources\App\Index\OtherJoin\mode3.jpg" />
     <None Remove="Resources\App\Index\Person.png" />
     <None Remove="Resources\App\Option\MainMenu\microsoft-shell-accessibility.ico" />
     <None Remove="Resources\App\Option\MainMenu\microsoft-shell-colors.ico" />
@@ -46,12 +50,15 @@
 
   <ItemGroup>
     <Resource Include="Resources\App\Icon\wpfui.png" />
-    <Resource Include="Resources\App\Index\bg.jpg" />
     <Resource Include="Resources\App\Index\bg1.png" />
     <Resource Include="Resources\App\Index\ezgif.com-gif-maker.gif" />
     <Resource Include="Resources\App\Index\FhNp-fFXEAM9Aep.jfif" />
+    <Resource Include="Resources\App\Index\FhT9r60aAAEG2Xy.jfif" />
+    <Resource Include="Resources\App\Index\FkQ1pIXXEAIt_kp.jfif" />
     <Resource Include="Resources\App\Index\FX3ORVDXgAAbnM4.jfif" />
     <Resource Include="Resources\App\Index\kv_logo.png" />
+    <Resource Include="Resources\App\Index\OtherJoin\mode1.jpg" />
+    <Resource Include="Resources\App\Index\OtherJoin\mode3.jpg" />
     <Resource Include="Resources\App\Index\Person.png" />
     <Resource Include="Resources\App\Option\MainMenu\microsoft-shell-accessibility.ico" />
     <Resource Include="Resources\App\Option\MainMenu\microsoft-shell-colors.ico" />
