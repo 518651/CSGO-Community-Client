@@ -14,7 +14,14 @@
         <StackPanel>
             <Grid VerticalAlignment="Top" HorizontalAlignment="Center" Height="400" Width="1152" >
                 <Border Background="#212122">
-                        
+                    <StackPanel>
+                        <TextBlock Text="CSGO Community > 导航 > 社区主页" Foreground="#8b8f9d" FontFamily="Microsoft YaHei UI" FontSize="14" Margin="20,20,0,0" />
+                        <TabControl Margin="20,20,0,0">
+                            <StackPanel>
+                            </StackPanel>
+                        </TabControl>
+                    </StackPanel>
+
                 </Border>
             </Grid>
         </StackPanel>

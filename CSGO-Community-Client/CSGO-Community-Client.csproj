@@ -45,7 +45,6 @@
 
   <ItemGroup>
     <Folder Include="Resources\App\Start\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
 
   <ItemGroup>
