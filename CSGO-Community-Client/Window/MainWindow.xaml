@@ -39,7 +39,8 @@
                 <ui:NavigationItem
                     Content="Performance"
                     Icon="DesktopPulse24"
-                    Tag="tm_performance" />
+                    Tag="tm_performance"
+                    PageType="{x:Type local:Start}"/>
                 <ui:NavigationItem
                     Content="App history"
                     Icon="History24"
@@ -87,7 +88,7 @@
             MinimizeToTray="False"
             ShowHelp="False"
             Icon="/Resources/App/Icon/wpfui.png"
-            UseSnapLayout="True" Grid.ColumnSpan="2" Width="1150" Margin="50,0,0,0" FontFamily="HarmonyOS Sans Medium" Height="45" Background="#FF1F2558">
+            UseSnapLayout="True" Grid.ColumnSpan="2" Width="1150" Margin="48,0,0,0" FontFamily="HarmonyOS Sans Medium" Height="45" Background="#FF1F2558">
                 <ui:TitleBar.Header>
                     <StackPanel
                     Margin="0,0,12,15"
@@ -108,7 +109,7 @@
                 </ui:TitleBar.Header>
             </ui:TitleBar>
 
-        <Grid Grid.Column="1">
+        <Grid Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,-1,0,0">
             <Border
                 Margin="0,46,0,0"
                 Background="#FF10123D"
@@ -132,7 +133,7 @@
                         Grid.Row="1" Width="1060" HorizontalAlignment="Left" Height="550" Margin="40,0,40,0" VerticalAlignment="Top" />-->
                     <Frame
                         x:Name="RootFrame"
-                        Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="1152" Height="588" />
+                        Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Width="1150" Height="588" />
                 </Grid>
             </Border>
         </Grid>
