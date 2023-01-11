@@ -45,6 +45,7 @@
 
   <ItemGroup>
     <Folder Include="Resources\App\Start\" />
+    <Folder Include="Service\" />
   </ItemGroup>
 
   <ItemGroup>
