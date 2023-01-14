@@ -44,7 +44,7 @@
                 <ui:NavigationItem
                     Content="App history"
                     Icon="History24"
-                    PageTag="tm_app_history"
+                    PageType="{x:Type local:SelectServerPage}"
                      />
                 <ui:NavigationItem
                     Content="Chat"

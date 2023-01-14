@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>CSGO_Community_Simple</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resource\App\Icon\Png\Index\Fire.png" />
+    <None Remove="Resource\App\Icon\Png\Index\MacBook Pro 14_ - 2.jpg" />
+    <None Remove="Resource\App\Icon\Png\Index\MacBook Pro 14_ - 2.png" />
+    <None Remove="Resource\App\Icon\Png\Index\Sample Page.png" />
+    <None Remove="Resource\App\Icon\Png\Index\ss3 1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WPF-UI" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\App\Icon\Png\Index\Fire.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resource\App\Icon\Png\Index\MacBook Pro 14_ - 2.png" />
+    <Resource Include="Resource\App\Icon\Png\Index\Sample Page.png" />
+    <Resource Include="Resource\App\Icon\Png\Index\ss3 1.png" />
+  </ItemGroup>
+
+</Project>

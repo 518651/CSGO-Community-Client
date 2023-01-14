@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="CSGO_Community_Client.SelectServerTabUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CSGO_Community_Client" xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" xmlns:webview2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="1150">
+    
+    
+    <TabControl>
+        <TabItem>
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <ui:SymbolIcon Margin="0,0,6,0" Symbol="Server20" />
+                    <TextBlock Text="主服务器信息" />
+                </StackPanel>
+            </TabItem.Header>
+            <Grid>
+                <DockPanel>
+                    <webview2:WebView2 x:Name="GOTV"  Width="500" HorizontalAlignment="Left" Margin="80,0,0,0"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock Text="【KOD社区】狙服1F#AWP多人对狙免费皮肤" FontFamily="HarmonyOS Sans Black" FontSize="18" Panel.ZIndex="1"/>
+                        
+                    </StackPanel>
+                    
+                </DockPanel>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</UserControl>

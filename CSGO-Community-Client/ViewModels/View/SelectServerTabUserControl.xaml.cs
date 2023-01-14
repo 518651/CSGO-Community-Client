@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CSGO_Community_Client.ViewModels.View
+namespace CSGO_Community_Client
 {
     /// <summary>
     /// StartMainserverInfo.xaml 的交互逻辑
     /// </summary>
-    public partial class StartMainserverInfo : UserControl
+    public partial class SelectServerTabUserControl : UserControl
     {
-        public StartMainserverInfo()
+        public SelectServerTabUserControl()
         {
             InitializeComponent();
         }

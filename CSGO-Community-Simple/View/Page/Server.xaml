@@ -1,0 +1,49 @@
+﻿<ui:UiPage x:Class="CSGO_Community_Simple.Server"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CSGO_Community_Simple"
+      mc:Ignorable="d" 
+      d:DesignHeight="2500" d:DesignWidth="1125"
+      Scrollable="True"
+      Title="Server">
+
+
+    <Grid>
+
+        <Image Source="/Resource/App/Icon/Png/Index/MacBook Pro 14_ - 2.png" HorizontalAlignment="Center" VerticalAlignment="Top" Stretch="UniformToFill"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="450"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <ui:Button
+                Width="150" 
+                Height="35" 
+                Margin="110,0,0,0"
+                Content="定制你的游戏客户端"
+                FontFamily="Microsoft YaHei UI" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Bottom" 
+                Click="Customized_btn"
+                >
+                <ui:Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,0" StartPoint="0,2">
+                        <GradientStop Color="#FF9615C3" Offset="1"/>
+                        <GradientStop Color="#FFF10493" Offset="0"/>
+                    </LinearGradientBrush>
+                </ui:Button.Background>
+            </ui:Button>
+        </Grid>
+
+
+
+    </Grid>
+</ui:UiPage>
